@@ -45,11 +45,11 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <img
+                {/* <img
                   src="/images/profile.jpg"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
-                />
+                /> */}
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
